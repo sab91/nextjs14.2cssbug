@@ -1,0 +1,13 @@
+/node_modules
+/.next/
+/out/
+.env*.local
+.env
+.env.production
+.env.development
+*.tsbuildinfo
+next-env.d.ts
+tmp/*.*
+secrets
+tsconfig.tsbuildinfo
+certificates

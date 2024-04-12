@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "allowJs": false,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "incremental": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "paths": {
+      "@app/*": ["src/app/*"],
+      "@base/*": ["src/components/base/*"],
+      "@components/*": ["src/components/components/*"],
+      "@constants/*": ["src/shared/constants/*"],
+      "@entities/*": ["src/entities/*"],
+      "@features/*": ["src/features/*"],
+      "@fonts/*": ["src/shared/assets/fonts/*"],
+      "@hooks/*": ["src/shared/hooks/*"],
+      "@i18n/*": ["src/shared/i18n/*"],
+      "@public/*": ["public/*"],
+      "@store/*": ["src/shared/store/*"],
+      "@styles/*": ["src/shared/styles/*"],
+      "@svg/*": ["src/shared/assets/svg/*"],
+      "@ui/*": ["src/components/ui/*"],
+      "@utils/*": ["src/shared/utils/*"],
+      "@views/*": ["src/views/*"],
+      "@widgets/*": ["src/widgets/*"]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ES2022",
+    "useDefineForClassFields": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "next-env.d.ts"]
+}

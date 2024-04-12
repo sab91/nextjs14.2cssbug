@@ -1,0 +1,29 @@
+.wrapper {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+}
+
+.container {
+  justify-content: space-between;
+  padding: 16px;
+  color: #eeeeee;
+  background-color: #222222;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.list {
+  position: relative;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  width: 100%;
+  padding: 0 16px;
+}
